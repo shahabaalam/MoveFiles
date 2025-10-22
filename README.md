@@ -69,6 +69,8 @@ Add your own patterns with `--extra-ignore`.
 ## Progress Display
 Shows overall percentage, copied size vs total, current throughput, ETA, and the current file label.
 
+![Progress display screenshot](screenshots/filemoveprogress.png)
+
 ## Safety
 - Creates a unique destination folder to avoid overwrites (e.g., `name-copy-1`).
 - Refuses to copy when the destination resolves to the same path as the source, or when the destination is inside the source.
@@ -85,4 +87,3 @@ Shows overall percentage, copied size vs total, current throughput, ETA, and the
 ## Notes
 - On Windows, a native multi-select folder picker is used when available.
 - On other platforms, the tool tries a Tk dialog first; if GUI isn’t available, it falls back to CLI prompts.
-
